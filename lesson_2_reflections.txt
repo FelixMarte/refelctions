@@ -6,3 +6,14 @@ no se crea ningún commit automatico debido a que git espera que seleccionemos
 explicitamente los archivos que queremos incluir bajo el comando (git add),
 nuestros archivos tienen dos estados (tracked y untracked) y lo podemos revisar con
 el comando (git status).
+
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+En esta area tenemos los archivos que queremos añadir en nuestro proximo commit, por lo tanto aqui tendremos los 
+archivos que han sido modificado, pero no necesariamente todos ellos. La parte interesante de esta area
+es que aunque hayamos hecho modificaciones en diferentes archivos aqui podemos incluir solo aquellos que representan
+un verdadero cambio logico en el codigo. Asi de esta manera podemos dividir cada cambio logico en diferentes grupos 
+cada vez que deseemos hacer un commit.
