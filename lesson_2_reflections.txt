@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Se crea una nueva carpeta oculta llamada ".git", en dicha carpeta se guardaran
+los metadatos de cada uno de los commits que hagamos en nuestro nuevo repositorio,
+no se crea ningún commit automatico debido a que git espera que seleccionemos 
+explicitamente los archivos que queremos incluir bajo el comando (git add),
+nuestros archivos tienen dos estados (tracked y untracked) y lo podemos revisar con
+el comando (git status).
