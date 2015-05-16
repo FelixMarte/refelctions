@@ -2,7 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Se crea una nueva carpeta oculta llamada ".git", en dicha carpeta se guardaran
 los metadatos de cada uno de los commits que hagamos en nuestro nuevo repositorio,
-no se crea ningún commit automatico debido a que git espera que seleccionemos 
+no se crea ningÃºn commit automatico debido a que git espera que seleccionemos 
 explicitamente los archivos que queremos incluir bajo el comando (git add),
 nuestros archivos tienen dos estados (tracked y untracked) y lo podemos revisar con
 el comando (git status).
@@ -12,8 +12,17 @@ el comando (git status).
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-En esta area tenemos los archivos que queremos añadir en nuestro proximo commit, por lo tanto aqui tendremos los 
+En esta area tenemos los archivos que queremos aÃ±adir en nuestro proximo commit, por lo tanto aqui tendremos los 
 archivos que han sido modificado, pero no necesariamente todos ellos. La parte interesante de esta area
 es que aunque hayamos hecho modificaciones en diferentes archivos aqui podemos incluir solo aquellos que representan
 un verdadero cambio logico en el codigo. Asi de esta manera podemos dividir cada cambio logico en diferentes grupos 
 cada vez que deseemos hacer un commit.
+
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+
+AÃ±adiendo solo el archivo o grupo de archivos que representan un cambio logico a esta area, y luego hacer el commit. Repetir este proceso para cambio logico, de modo que queden representados individualmente en cada commit.
