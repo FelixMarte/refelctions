@@ -26,3 +26,11 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 
 Añadiendo solo el archivo o grupo de archivos que representan un cambio logico a esta area, y luego hacer el commit. Repetir este proceso para cambio logico, de modo que queden representados individualmente en cada commit.
+
+
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Las ramas son bastante util, cuando queremos hacer versiones con cambios experimentales de nuestros programas, creando otra rama podemos trabajar con la seguridad de que no afectaremos la integridad de nuestro proyecto original. Es util para versiones con, nuevas caracteristicas, añadir idiomas, incluso para mantener dos versiones de un programa tal como los interprete de python. 
