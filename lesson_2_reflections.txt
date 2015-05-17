@@ -34,3 +34,10 @@ Añadiendo solo el archivo o grupo de archivos que representan un cambio logico 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Las ramas son bastante util, cuando queremos hacer versiones con cambios experimentales de nuestros programas, creando otra rama podemos trabajar con la seguridad de que no afectaremos la integridad de nuestro proyecto original. Es util para versiones con, nuevas caracteristicas, añadir idiomas, incluso para mantener dos versiones de un programa tal como los interprete de python. 
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+Ayuda de una manera asombrosa, ya que no perdemos el conocimiento sobre la estructura de nuestro repositorio, y vemos a partir de que punto surge cada rama en éste.
