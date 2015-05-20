@@ -8,3 +8,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 This helpful to keep our repository under control when we're working in teams, because somebody can update the repository and insert 
 changes that we don't want to keep.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork: is a clone of a repository inside github to your account, is exclusive of github.
+
+Clones: is a git command that make a copy of a repository, the repository can be external as well as internal.
+
+Branch: is like a new way in the road, that doesn't affect your master way, is used to fix bugs or may big changes without damage your working project, when you finish you can merge your diferrents branches to the master one.
